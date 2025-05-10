@@ -1,0 +1,6 @@
+# Files to ignore
+images/T_correlation_heatmap.png
+./checkpoints
+.venv
+.envs
+
