@@ -1,5 +1,5 @@
 # Customer Churn Prediction
-![Booth](images\phone-booth.jpg)
+![Booth](images/phone-booth.jpg)
 
 This project applies the CRISP-DM methodology to predict customer churn.
 
@@ -21,7 +21,7 @@ This project focuses on predicting customer churn for SyriaTel, a telecommunicat
 
 ## Business Understanding
 
-![Center](images\call_center.png)
+![Center](images/call_center.png)
 
 The goal is to identify customers likely to leave SyriaTel soon, enabling proactive retention strategies and reducing revenue loss.
 Find the factors affecting customer satisfaction leading to churn. Understand the patterns and packages/ plans at high risk of churn.
@@ -35,8 +35,8 @@ Find the factors affecting customer satisfaction leading to churn. Understand th
 ## Data Understanding
 
 - The data used is collected from customer records, usage, and service history of SyriaTel, a telecommunications company found in a dataset from Kaggle [click here](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)
-- Initial exploration includes summary statistics, churn distribution and  relationship between features.
-![churn](images\churn_distribution.png)
+- Initial exploration includes summary statistics, churn distribution and the relationship between features.
+![churn](images/churn_distribution.png)
 This is the distribution of churn and loyal customers, churn(True) and  Loyal customers(False).
 
 - The dataset has class imbalance as one class contains 85.51% of churn distribution when the other contains 14.49%.
@@ -58,7 +58,7 @@ Here, two classification model algorithms are built;
 
 - Evaluated models using accuracy, precision, recall, and ROC-AUC.
 - Selected the Decision tree model for its exemplary perfomance on predicting unseen data. Here is a classification model, Decision tree confusion matrix.
-![Confusion_matrix](images\tree_matrix.png)
+![Confusion_matrix](images/tree_matrix.png)
 The model performance:
  - f1_score = 0.77,
  - recall = 0.78,
@@ -69,9 +69,9 @@ The model performance:
 ### Conclusion
 
 Churn predictors are pointed below using two visualizations.
-![Summary](images\churn_summary.png)
+![Summary](images/churn_summary.png)
 
-![Features](images\churn_features.png)
+![Features](images/churn_features.png)
 
 * High number of customer service calls show dissatisfaction and a potential churn.
 * Customers with an international plan are more likely to churn, and those who make more customer service calls also show a higher tendency to leave, indicating dissatisfaction with the service.
