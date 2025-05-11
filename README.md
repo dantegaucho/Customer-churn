@@ -104,4 +104,6 @@ Churn predictors are pointed below using two visualizations.
 3. Run the notebook or script to train and evaluate the model.
 
 ---
+### For more information
 
+Please review the full analysis on [Jupiter Notebook](https://github.com/dantegaucho/Customer-churn) or the [Presentation](https://github.com/dantegaucho/Customer-churn/blob/main/Presentation_2.pdf)
