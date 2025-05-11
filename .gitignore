@@ -3,4 +3,5 @@ images/T_correlation_heatmap.png
 ./checkpoints
 .venv
 .envs
-
+.ipynb_checkpoints
+\decision_tree_model.joblib
